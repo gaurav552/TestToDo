@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">To Do App</string>
+    <string name="add">" थप्नु"</string>
+    <string name="list_hint">सूचीमा थप्नुहोस्</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- The ListView works as is. All you need to do it add styles -->
+    <!-- The ListView works as is. All you need to do it add styles -->
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".8"
+        >
+    </ListView>
+
+    <!--    making it one hand accessible by putting it at bottom-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+        <EditText
+            android:id="@+id/data"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".90"
+            android:ems="10"
+            android:hint="@string/list_hint"
+            android:inputType="textPersonName"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableStart="@drawable/add_icon"
+            android:text="@string/add"
+            android:paddingStart="40dp"
+            android:layout_weight=".1"
+            />
+    </LinearLayout>
+
+</LinearLayout>
